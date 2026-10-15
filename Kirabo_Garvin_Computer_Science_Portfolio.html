@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Kirabo Garvin's Computer Science student portfolio — programming, computer hardware, leadership and rugby.">
+<title>Kirabo Garvin | Computer Science Student Portfolio</title>
+<style>
+:root{--bg:#080b16;--panel:#11182a;--panel2:#151f35;--line:#273653;--text:#f4f7ff;--muted:#a9b6cc;--cyan:#55e6e0;--blue:#6f91ff;--purple:#b38cff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(circle at 15% 5%,#1a1640 0,transparent 32%),radial-gradient(circle at 90% 30%,#0d3442 0,transparent 30%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.65}
+a{color:inherit;text-decoration:none}.wrap{width:min(1100px,92%);margin:auto}.nav{position:sticky;top:0;z-index:5;background:#080b16df;backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.navin{height:72px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{display:flex;align-items:center;gap:12px;font-weight:800}.mark{display:grid;place-items:center;width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--cyan),var(--blue),var(--purple));color:#08101d;font-weight:900}.links{display:flex;gap:23px;color:var(--muted);font-size:.9rem}.links a:hover{color:var(--cyan)}.btn{display:inline-flex;align-items:center;justify-content:center;padding:11px 17px;border-radius:12px;border:1px solid #3c5778;background:var(--panel);font-weight:700;font-size:.9rem;cursor:pointer;color:var(--text)}.btn.primary{background:linear-gradient(110deg,var(--cyan),var(--blue));color:#07111d;border:0}.hero{padding:78px 0 64px}.hero-grid{display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}.eyebrow{font-family:ui-monospace,SFMono-Regular,monospace;color:var(--cyan);text-transform:uppercase;letter-spacing:.13em;font-size:.78rem;font-weight:700}.hero h1{font-size:clamp(2.7rem,6vw,4.8rem);line-height:1.06;letter-spacing:-.055em;margin:16px 0}.gradient{background:linear-gradient(100deg,var(--cyan),var(--blue),var(--purple));-webkit-background-clip:text;background-clip:text;color:transparent}.lead{font-size:1.1rem;color:var(--muted);max-width:650px}.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:27px}.profile{border:1px solid #344465;background:linear-gradient(150deg,#17223a,#0e1425);border-radius:26px;padding:28px;text-align:center;box-shadow:0 18px 60px #0005}.avatar{width:120px;height:120px;margin:0 auto 16px;border-radius:50%;display:grid;place-items:center;font-size:2.5rem;font-weight:900;color:#07111d;background:linear-gradient(135deg,var(--cyan),var(--blue),var(--purple));box-shadow:0 0 40px #55e6e033}.profile p{color:var(--muted);margin:5px 0}.status{display:inline-block;margin-top:15px;padding:6px 12px;border:1px solid #2f777a;border-radius:30px;color:var(--cyan);font-size:.8rem}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px}.stat{padding:16px;border:1px solid var(--line);background:#11182aab;border-radius:15px}.stat strong{display:block;color:var(--cyan);font-size:1rem}.stat span{font-size:.8rem;color:var(--muted)}section{padding:42px 0}.section-head{margin-bottom:25px}.section-head h2{font-size:clamp(1.8rem,4vw,2.5rem);margin:5px 0;letter-spacing:-.035em}.section-head p{color:var(--muted);margin:0}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:linear-gradient(150deg,var(--panel),#0d1322);border:1px solid var(--line);border-radius:19px;padding:23px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#4b8caa;box-shadow:0 15px 40px #0003}.icon{width:43px;height:43px;border-radius:13px;display:grid;place-items:center;background:#1c3445;color:var(--cyan);font-size:1.3rem;margin-bottom:15px}.card h3{margin:0 0 8px;font-size:1.12rem}.card p{color:var(--muted);font-size:.94rem;margin:0}.tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}.tag{border:1px solid #30415e;background:#10192a;color:#c7d7ed;border-radius:8px;padding:4px 8px;font-size:.75rem}.split{display:grid;grid-template-columns:1fr 1fr;gap:18px}.skill{margin:16px 0}.skilltop{display:flex;justify-content:space-between;gap:15px;font-size:.92rem}.skilltop span:last-child{color:var(--muted);font-size:.82rem}.track{height:7px;border-radius:20px;background:#202b41;margin-top:8px;overflow:hidden}.fill{height:100%;width:var(--w);background:linear-gradient(90deg,var(--cyan),var(--blue));border-radius:20px}.timeline{border-left:2px solid #344765;padding-left:20px}.timeline-item{position:relative;padding:0 0 23px}.timeline-item:before{content:"";position:absolute;left:-27px;top:7px;width:10px;height:10px;background:var(--cyan);border-radius:50%;box-shadow:0 0 0 4px #55e6e01c}.timeline-item p{color:var(--muted);margin:5px 0}.contactbox{display:flex;justify-content:space-between;align-items:center;gap:24px;border:1px solid #354768;background:linear-gradient(120deg,#121d31,#191735);border-radius:24px;padding:30px}.contactbox p{color:var(--muted);margin:5px 0 0}.footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:.85rem;margin-top:45px}.footerin{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.note{color:#8293ad;font-size:.8rem;margin-top:12px}
+@media(max-width:780px){.links{display:none}.hero{padding-top:48px}.hero-grid,.split{grid-template-columns:1fr}.profile{max-width:420px;margin:auto;width:100%}.cards{grid-template-columns:1fr 1fr}.stats{grid-template-columns:1fr}.contactbox{align-items:flex-start;flex-direction:column}}
+@media(max-width:500px){.cards{grid-template-columns:1fr}.navin{height:64px}.hero h1{font-size:2.8rem}.profile{padding:22px}}
+@media print{body{background:#fff;color:#111}.nav,.actions,.btn{display:none!important}.card,.profile,.stat,.contactbox{background:#fff;color:#111;border:1px solid #ccc;box-shadow:none}.lead,.card p,.section-head p,.profile p,.contactbox p,.footer{color:#333}.gradient{color:#111;-webkit-text-fill-color:#111}.hero{padding:20px 0}section{padding:15px 0}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap navin">
+<a class="brand" href="#home"><span class="mark">KG</span><span>Kirabo Garvin<br><small style="color:var(--muted);font-weight:500">Computer Science Student · Portfolio</small></span></a>
+<nav class="links"><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#leadership">Leadership</a><a href="#contact">Contact</a></nav>
+<button class="btn" onclick="window.print()">Save / Print CV</button>
+</div></header>
+<main class="wrap">
+<section class="hero" id="home"><div class="hero-grid">
+<div><div class="eyebrow">Curious mind · Practical learner</div>
+<h1>Building skills in <span class="gradient">technology</span> and beyond.</h1>
+<p class="lead">I'm Kirabo Garvin, a first-year Computer Science student learning C programming, Python and essential computer hardware. I'm interested in growing my technical skills, exploring cybersecurity, and using technology to solve real problems.</p>
+<div class="actions"><a class="btn primary" href="#projects">Explore my learning</a><a class="btn" href="#contact">Get in touch</a></div>
+<div class="stats"><div class="stat"><strong>Year 1</strong><span>Computer Science student</span></div><div class="stat"><strong>C · Python</strong><span>Currently learning</span></div><div class="stat"><strong>Teamwork</strong><span>Sport & leadership</span></div></div>
+</div>
+<aside class="profile"><div class="avatar">KG</div><h2 style="margin:0">Kirabo Garvin</h2><p>Information Technology Student</p><p>Uganda</p><span class="status">● Learning and building</span></aside>
+</div></section>
+
+<section id="about"><div class="section-head"><div class="eyebrow">// About me</div><h2>Technology, teamwork and growth</h2><p>A student portfolio focused on learning, consistency and practical experience.</p></div>
+<div class="split"><article class="card"><div class="icon">⌘</div><h3>My Computer Science journey</h3><p>I'm building a foundation in programming and computer systems. Through coursework and personal practice, I aim to improve my problem-solving skills and learn how software and hardware work together.</p></article>
+<article class="card"><div class="icon">◎</div><h3>Where I want to grow</h3><p>Cybersecurity is an area I'm interested in exploring. My next steps are to strengthen programming fundamentals, understand networking and operating systems, and practise safe, ethical security skills in learning environments.</p></article></div>
+</section>
+
+<section id="skills"><div class="section-head"><div class="eyebrow">// Current skill set</div><h2>What I'm learning</h2><p>These are learning areas, not claims of professional-level expertise.</p></div>
+<div class="split"><article class="card"><h3>Technical foundations</h3>
+<div class="skill"><div class="skilltop"><strong>C programming</strong><span>Beginner / learning</span></div><div class="track"><div class="fill" style="--w:35%"></div></div></div>
+<div class="skill"><div class="skilltop"><strong>Python</strong><span>Beginner / learning</span></div><div class="track"><div class="fill" style="--w:30%"></div></div></div>
+<div class="skill"><div class="skilltop"><strong>Essential computer hardware</strong><span>Foundations</span></div><div class="track"><div class="fill" style="--w:35%"></div></div></div>
+<div class="skill"><div class="skilltop"><strong>Cybersecurity</strong><span>Exploring</span></div><div class="track"><div class="fill" style="--w:15%"></div></div></div>
+<p class="note">Progress bars are illustrative and can be updated as skills develop.</p></article>
+<article class="card"><h3>Transferable skills</h3><div class="tags"><span class="tag">Leadership</span><span class="tag">Teamwork</span><span class="tag">Communication</span><span class="tag">Discipline</span><span class="tag">Problem-solving</span><span class="tag">Time management</span></div><p style="margin-top:17px">Sport has helped me value preparation, responsibility, collaboration and learning from feedback—qualities I also bring to my studies.</p></article></div>
+</section>
+
+<section id="projects"><div class="section-head"><div class="eyebrow">// Projects & practice</div><h2>My learning projects</h2><p>Starter project ideas that match my current course. I'll add links and screenshots as I complete them.</p></div>
+<div class="cards">
+<article class="card"><div class="icon">⌨</div><h3>C programming exercises</h3><p>Small console programs to practise variables, input/output, conditions, loops and functions as I learn C.</p><div class="tags"><span class="tag">C</span><span class="tag">Logic</span><span class="tag">Console</span></div></article>
+<article class="card"><div class="icon">🐍</div><h3>Python practice tools</h3><p>Beginner scripts for calculations, simple menus and solving everyday problems while developing clear coding habits.</p><div class="tags"><span class="tag">Python</span><span class="tag">Problem-solving</span></div></article>
+<article class="card"><div class="icon">▤</div><h3>Hardware study notes</h3><p>A growing reference covering computer components, their functions, basic troubleshooting and how hardware works together.</p><div class="tags"><span class="tag">Hardware</span><span class="tag">Computer hardware fundamentals</span></div></article>
+</div><p class="note">These are portfolio project descriptions and practice goals; replace or supplement them with finished work when available.</p>
+</section>
+
+<section id="leadership"><div class="section-head"><div class="eyebrow">// Beyond the classroom</div><h2>Leadership & sport</h2><p>Experience that shapes how I work with people and take responsibility.</p></div>
+<div class="split"><article class="card"><div class="icon">🏉</div><h3>Rugby player & captain</h3><p>Being involved in rugby has developed my appreciation for teamwork, discipline, preparation and staying focused on shared goals.</p></article>
+<article class="card"><div class="icon">★</div><h3>Games and Sports Minister</h3><p>My high-school leadership experience gave me opportunities to support sporting activities, work with others and take responsibility within the school community.</p></article></div>
+</section>
+
+<section id="contact"><div class="contactbox"><div><div class="eyebrow">// Contact</div><h2 style="margin:5px 0">Let's connect.</h2><p>Interested in technology, student projects, teamwork or learning opportunities? I'd be glad to connect.</p><p class="note">Add your preferred email and professional profile links before publishing.</p></div><div style="display:flex;gap:10px;flex-wrap:wrap"><button class="btn primary" onclick="copyEmail()">Copy email placeholder</button><a class="btn" href="#home">Back to top ↑</a></div></div></section>
+</main>
+<footer class="footer"><div class="wrap footerin"><span>© <span id="year"></span> Kirabo Garvin</span><span>Student portfolio · Built with HTML & CSS</span></div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+function copyEmail(){
+  const placeholder='your.email@example.com';
+  if(navigator.clipboard && navigator.clipboard.writeText){
+    navigator.clipboard.writeText(placeholder).then(()=>alert('Copied the email placeholder. Replace it with your real email before publishing.'));
+  } else { alert('Email placeholder: '+placeholder+' — replace it with your real email before publishing.'); }
+}
+</script>
+</body>
+</html>
